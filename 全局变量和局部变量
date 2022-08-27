@@ -1,0 +1,10 @@
+#include<stdio.h>
+int global = 2020;
+int main()
+{
+  int lacal = 2019;
+  int global = 2021;
+  printf("global = %d\n",global);
+  return 0;
+}
+  
