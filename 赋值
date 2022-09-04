@@ -1,0 +1,12 @@
+#include<stdio.h>
+int global = 2022;
+void tset()
+{
+   printf("tset()--%d\n",global);
+}
+int main()
+{
+   tset();
+   printf("%d\n",global);
+   return 0;
+}
