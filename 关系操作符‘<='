@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+  int a = 3;
+  int b = 3;
+  if(b<=a)//当b为3，2，1任何一个时就打印b，否则打印a
+   printf(”%d\n",b);
+  else
+   printf("%d\n",a);
+  return 0;
+}
