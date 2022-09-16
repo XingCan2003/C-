@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
+int main()
+{
+   srand((unsigned int) time (NULL));
+   int num = rand() % 10;
+   printf("请输入一个数字\n");
+   int i;
+   for(;;)
+   { 
+      scanf("%d",&i);
+      if(i<num)
+      {
+        printf("小了\n");
+      }
+      else if(i>num)
+      {
+        printf("大了\n);
+      }
+      else
+      {
+        printf("猜对了\n");
+        break;
+      }
+   }
+   return 0;
+} 
