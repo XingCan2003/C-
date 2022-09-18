@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+   const int num = 4;
+   peintf("%d\n",num);
+   num = 8;
+   return 0;
+}
