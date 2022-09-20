@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+   int a = 9;
+   if(a%2 == 0)
+     printf("为偶数\n",a);
+   else
+     printf("为奇数\n",a);
+   return 0;
+}
