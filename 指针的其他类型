@@ -1,0 +1,9 @@
+#inlude<stdio.h>
+int main()
+{ 
+  int ch = 'w';
+  char* pc =&ch;
+  *pc = 'a';
+  printf("%c\n",ch);
+  return 0;
+}
