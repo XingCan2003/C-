@@ -1,7 +1,7 @@
-#inlude<stdio.h>
+#include<stdio.h>
 int main()
 { 
-  int ch = 'w';
+  char ch = 'w';
   char* pc =&ch;
   *pc = 'a';
   printf("%c\n",ch);
