@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+   int a,b,c,d,f,e;
+   a = 8,b = 9, c = 10;
+   d = a/3,b = b+d,c = c+d;
+   e = b/3,c = c+e;
+   f = c/3;
+   a = d+e+f,b = e+f,c = f;
+   printf("%d %d %d",a,b,c);
+   return 0;
+}
