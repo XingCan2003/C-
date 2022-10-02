@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    float m,i,r,y;
+    scanf("%f %f %f",&m,&y,&r);
+    i = m * pow(1+r,y)-m;
+    printf("interest = %.2f\n",i);
+    return 0;
+}
