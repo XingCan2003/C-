@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int h,m,num1,num2;//小时，分钟，出发时间，到达时间
+    scanf("%d%d", &num1, &num2);
+    h = num2 / 100 - num1 / 100;
+    m = num2 % 100 - num1 % 100;
+    if (m < 0)
+    {
+        m = 60 + m;
+        h = h - 1;
+    }
+    printf("%02d:%02d\n", h, m);
+    return 0;
+}
