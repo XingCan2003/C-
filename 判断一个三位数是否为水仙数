@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int n, a, b, c,sum;
+    scanf("%d", &n);
+    if(n>=100 && n<=999)
+    {
+       a = n / 100;
+
+       b = n / 10;
+
+       b = b % 10;
+
+       c = n % 10;
+
+      sum = pow(a,3) + pow(b,3) + pow(c,3);
+       if (n == sum)
+       {
+           printf("Yes");
+       }
+       else    
+       {
+        printf("No");
+       }
+    }
+    else
+    {
+        printf("Invalid Value.");
+    }
+    return 0;
+}
