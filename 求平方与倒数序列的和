@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int m,n;
+    double a,b,sum=0;
+    scanf("%d %d",&n,&m);
+    for(a=n;a<=m;a++)
+    {
+        b = 1/a;
+        sum = sum +pow(a,2)+ b;
+    }
+    printf("sum = %.6f",sum);
+    return 0;
+}
