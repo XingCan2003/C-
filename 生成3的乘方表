@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int x,y, i;
+    scanf("%d", &x);
+    for (y=0;y<=x;y++)
+    {
+        i = pow(3, y);
+        printf("pow(3,%d) = %d\n", y, i);
+    }
+
+    return 0;
+}
