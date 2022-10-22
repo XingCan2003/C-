@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int n,y,sum=0;
+    scanf("%d", &n);
+    for (y = 1; y <= n; y++)
+    {
+        sum += pow(2, y);
+    } 
+    printf("result = %d", sum);
+    return 0;
+}
