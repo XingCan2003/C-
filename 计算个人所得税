@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+    int x;
+    double y;
+    scanf("%d", &x);
+    if (x <= 1600)
+    {
+        y = 0 * (x - 1600);
+        printf("%0.2lf", y);
+    }
+    else if(x > 1600 && x <= 2500)
+    {
+        y = 0.05 * (x - 1600);
+        printf("%.2lf", y);
+    }
+    else if (x > 2500 && x <= 3500)
+    {
+        y = 0.10 * (x - 1600);
+        printf("%.2lf", y);
+    }
+    else if (x > 3500 && x <= 4500)
+    {
+        y = 0.15 * (x - 1600);
+        printf("%.2lf", y);
+    }
+    else
+    {
+        y = 0.20 * (x - 1600);
+        printf("%.2lf", y);
+    }
+    return 0;
+}
